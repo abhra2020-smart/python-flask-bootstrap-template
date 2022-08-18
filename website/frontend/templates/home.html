@@ -1,13 +1,14 @@
-{%  extends "base.html" %}
+{% extends "base.html" %}
 {% block title %}Home{% endblock %}
 {% block content %}
-<div class="mx-auto" style="width: 12.5%;">
+<div>
     {% if user.is_authenticated %}
-    <h1>App</h1>
+    <h1 class="mx-auto" style="width: 12.5%;">Ameverse</h1>
     <br/>
+    <p>App Name</p>
 
     {% else %}
-    <p>Please <a href="/auth/login">log in</a> or <a href="/auth/sign-up">sign up</a> to continue.</p>
+    <p class="mx-auto" style="width: 20%;">Please <a href="/auth/login">log in</a> or <a href="/auth/sign-up">sign up</a> to continue.</p>
     {% endif %}
 </div>
 {% endblock %}

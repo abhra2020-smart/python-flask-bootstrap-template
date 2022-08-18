@@ -29,9 +29,11 @@ def create_app(base_dir):
 
     from ..frontend.views import views
     from ..frontend.auth import auth
+    from ..frontend.static import static
 
     app.register_blueprint(views, url_prefix="/")
     app.register_blueprint(auth, url_prefix="/auth/")
+    app.register_blueprint(static, url_prefix="/static/")
     from .models import User
 
     create_database(app)
