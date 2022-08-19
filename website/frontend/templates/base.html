@@ -19,7 +19,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbar">
+        <div class="collapse navbar-collapse p-2" id="navbar">
           <div class="navbar-nav">
             <a class="nav-item nav-link nav-text" href="/home">Home</a>
             {% if user.is_authenticated %}
@@ -29,7 +29,7 @@
             <a class="nav-item nav-link nav-text" href="/auth/sign-up">Sign Up</a>
             {% endif %}
           </div>
-            <form class="form-inline mt-2 mt-md-0 search-form" align="right" action="/home">
+            <form class="form-inline mt-2 mt-md-0 search-form p-2" align="right" action="/home">
                 <input type="text" class="form-control mr-sm-text" placeholder="Search..." aria-label="Search"/>
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
