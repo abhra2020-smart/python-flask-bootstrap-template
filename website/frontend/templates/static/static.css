@@ -9,3 +9,27 @@ body {
 a {
     color: rgb(164, 101, 191);
 }
+
+a:hover, a:focus {
+    color: rgb(49, 151, 224);
+}
+
+.nav-text {
+    color: rgb(210, 178, 223);
+}
+
+.search-form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    float: right;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.search-form input {
+    margin-left: 10px;
