@@ -6,16 +6,12 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-a {
-    color: rgb(164, 101, 191);
-}
-
-a:hover, a:focus {
-    color: rgb(49, 151, 224);
+a, a:hover, a:focus {
+    color: black;
 }
 
 .nav-text {
-    color: rgb(210, 178, 223);
+    color: white;
 }
 
 .search-form {
