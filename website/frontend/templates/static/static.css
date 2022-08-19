@@ -28,6 +28,6 @@ a:hover, a:focus {
 nav {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 75px;
 }
 
