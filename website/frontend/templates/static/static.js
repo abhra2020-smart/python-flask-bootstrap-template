@@ -5,4 +5,4 @@ var todayTime = today.getHours() + ":" + today.getMinutes() + ":" + today.getSec
 var date = todayDate + ' ' + todayTime;
 
 var msg = "Current URL: " + document.location.protocol + "//" + document.location.hostname;
-console.log("[DEBUG] " + msg);
+console.log("[DEBUG] " + date + " " msg);
